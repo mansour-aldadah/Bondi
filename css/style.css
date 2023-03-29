@@ -1,0 +1,185 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-btn {
+  background-color: #ff3150;
+  color: #ffc400;
+  padding: 0.5rem 1rem;
+}
+
+.main-btn:hover {
+  color: #ff3150;
+  background-color: #ffc400;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: #33d1cc;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar {
+  background-color: #19283f;
+}
+.navbar .navbar-toggler {
+  color: white;
+  border-color: white;
+  font-size: 25px;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .nav-link {
+  color: white;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  color: #33d1cc;
+}
+
+.search {
+  color: #33d1cc;
+  border-left: 1px solid #33d1cc;
+}
+
+.landing {
+  background-color: #19283f;
+  height: 500px;
+}
+
+.f .icon-holder {
+  height: 200px;
+}
+.f .icon-holder svg {
+  left: 50%;
+  transform: translate(-50%);
+}
+.f .icon-holder .number {
+  font-size: 12rem;
+  color: #eff7fa;
+}
+.f .icon-holder .icon {
+  color: #33d1cc;
+}
+
+.work {
+  background-color: #eff7fa;
+}
+.work ul .active {
+  background-color: #ff3150;
+  color: #ffc400;
+}
+.work ul .active:hover {
+  background-color: #ffc400;
+  color: #ff3150;
+}
+.work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.work ul li:not(.active):hover {
+  color: #ff3150;
+}
+.work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.work .box::after {
+  content: "Application";
+  position: absolute;
+  background-color: rgba(51, 209, 204, 0.5);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+  transform: translateX(calc(-100% - 5px));
+}
+.work .box:hover::after {
+  transform: translateX(0);
+}
+
+.staff .w {
+  max-width: 500px;
+}
+
+.team {
+  background-color: #eff7fa;
+}
+.team h1 {
+  color: #ffc400;
+}
+.team h4 {
+  background-color: #33d1cc;
+  color: white;
+}
+
+.tech .two {
+  background-color: #19283f;
+}
+.tech .two h2 {
+  color: white;
+}
+
+.sub {
+  background-color: #ffc400;
+}
+.sub input {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.sub input:focus {
+  outline: none;
+}
+.sub input::-moz-placeholder {
+  color: white;
+}
+.sub input:-ms-input-placeholder {
+  color: white;
+}
+.sub input::placeholder {
+  color: white;
+}
+.sub a {
+  background-color: #19283f;
+  color: #ffc400;
+}
+
+.footer {
+  background-color: #19283f;
+}
+.footer .one {
+  color: #33d1cc;
+}
+.footer .two {
+  color: #ffc400;
+}
+.footer svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}/*# sourceMappingURL=style.css.map */
